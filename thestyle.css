@@ -1,0 +1,93 @@
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 395px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #EBEBEB; /* Light gray */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 250px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 50px 10px 50px 120px;
+  color: #000;
+  text-decoration:none;
+  font-family:"League Spartan";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #A687C0;
+}
+
+/* Style page content */
+.main {
+  margin-left: 395px; /* Same as the width of the sidebar */
+  padding: 100px 40px;
+  color: #E0E0E0;
+  font-family:"League Spartan";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  
+
+}
+.name{
+  color:#A687C0;
+  font-style: Thin;
+  font-size:75px;
+  font-weight: 50;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.frame1{
+  display:flex;
+  justify-content: center;
+
+}
+.text h1{
+  flex-wrap:wrap;
+  margin-left: 50px;
+  margin-top: 0px;
+
+}
+
+ .photo{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   background-image: url('images/foto_zayani.png');
+  }
+
+
+  .box{
+   width: 775px;
+   height: 134px;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   background-color: #A687C0;
+  }
+ 
+ .textz{
+  font-family:"League Spartan";
+  font-size: 24px;
+  font-style: normal;
+  color:black;
+  
+ 
+ }
+
+
+
